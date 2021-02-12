@@ -3,5 +3,6 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt install -y ubuntu-restricted-extras
-sudo apt-get install -y libavcodec-extra libav-tools
+echo "yes" | sudo apt-get install -y ubuntu-restricted-extras
+echo "yes" | sudo apt-get install -y libavcodec-extra libav-tools
+echo "yes" | sudo apt-get install -y ffmpeg
