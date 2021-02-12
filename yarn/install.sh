@@ -3,4 +3,7 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt install -y --no-install-recommends yarn
+# Dependencies
+bash ../nvm/install.sh
+
+npm install --global yarn
