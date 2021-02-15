@@ -3,4 +3,4 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt-get install -y vim
+sudo apt install -y python2
