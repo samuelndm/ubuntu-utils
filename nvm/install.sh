@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Dependencies
-bash ../curl/install.sh
 sudo apt-get remove node
+bash ../curl/install.sh
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
